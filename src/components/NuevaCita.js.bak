@@ -42,7 +42,7 @@ const NuevaCita = (props) => {
         e.preventDefault();
 		let params = new URLSearchParams()
 		const pedidos = JSON.stringify(cita);
-		params.append("json" , pedidos);
+		params.append("json": pedidos);
 		const config = {
 			headers: {
 				'Content-Type': 'application/x-www-form-urlencoded'
